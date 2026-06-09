@@ -16,7 +16,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="meta">App: <strong>NBACore</strong> &nbsp;|&nbsp; Last updated: May 11, 2025 &nbsp;|&nbsp; Developer: Franjo Grsetic</p>
+<p class="meta">App: <strong>NBACore</strong> &nbsp;|&nbsp; Last updated: June 9, 2026 &nbsp;|&nbsp; Developer: Franjo Grsetic</p>
 
 <p>This Privacy Policy describes how NBACore ("the app", "we", "us") collects, uses, and handles your information when you use our Android application.</p>
 
@@ -44,14 +44,23 @@
 
 <h2>2. Third-Party Services</h2>
 
-<p>The app uses the following third-party services that may process data on our behalf:</p>
+<p>The app uses the following third-party services. All NBA data requests are routed through our backend; no personally identifiable information is forwarded to any data provider.</p>
 
 <ul>
   <li><strong>Firebase Authentication (Google)</strong> — manages sign-in. <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy policy</a></li>
-  <li><strong>Google Play Billing</strong> — handles in-app subscriptions. <a href="https://policies.google.com/privacy" target="_blank">Privacy policy</a></li>
-  <li><strong>API-Sports</strong> — provides NBA statistics, standings, and game data. Requests are routed through our backend; your personal data is not sent to API-Sports. <a href="https://www.api-sports.io/documentation" target="_blank">Documentation</a></li>
-  <li><strong>ESPN CDN</strong> — used to load team logos and player photos. Image URLs are fetched client-side; no personal data is transmitted. <a href="https://www.espn.com/espn/privacypolicy" target="_blank">Privacy policy</a></li>
+  <li><strong>Firebase Crashlytics &amp; Analytics (Google)</strong> — collects anonymous crash reports and aggregated usage analytics. <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy policy</a></li>
+  <li><strong>Google Play Billing</strong> — handles in-app subscriptions on Android. <a href="https://policies.google.com/privacy" target="_blank">Privacy policy</a></li>
+  <li><strong>Apple StoreKit</strong> — handles in-app subscriptions on iOS. <a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy policy</a></li>
+  <li><strong>API-Sports (NBA v2)</strong> — provides NBA player profiles, season statistics, standings, schedule, and game data. <a href="https://www.api-sports.io/documentation" target="_blank">Documentation</a></li>
+  <li><strong>BallDontLie</strong> — provides player injury status, confirmed lineups, contract data, and advanced statistics. <a href="https://www.balldontlie.io/" target="_blank">Provider site</a></li>
+  <li><strong>The Odds API</strong> — provides betting odds and player props data. <a href="https://the-odds-api.com/" target="_blank">Provider site</a></li>
+  <li><strong>Upstash Redis</strong> — caches NBA data on our backend. No user-identifiable data is cached. <a href="https://upstash.com/privacy" target="_blank">Privacy policy</a></li>
+  <li><strong>Fly.io</strong> — hosts our backend service. <a href="https://fly.io/legal/privacy-policy/" target="_blank">Privacy policy</a></li>
 </ul>
+
+<p><em>NBA team logos displayed in the app are bundled with the app as static assets sourced from Wikipedia / Wikimedia Commons. They are loaded from local app storage and not fetched from any remote server, so no personal data is transmitted when logos are displayed.</em></p>
+
+<p><em>Player avatars are rendered procedurally (programmatic jersey artwork) from team brand colors only. The app does not display, transmit, or store any player photographs or likenesses.</em></p>
 
 <h2>3. Notifications</h2>
 <p>If you grant notification permission, the app may send you a daily notification on days when your favorited players have games scheduled. Notifications are generated locally on your device using Android WorkManager. No notification data is sent to any external server.</p>
